@@ -19,7 +19,7 @@
                  <div class="col-md-10" style="padding-top:50px;">
                   <?php 
                       require_once 'includes/funcoes.php';
-                      require_once 'core/conexao-mysql,php';
+                      require_once 'core/conexao_mysql.php';
                       require_once 'core/sql.php';
                       require_once 'core/mysql.php';
 

@@ -31,14 +31,22 @@
                                 <input class="form-control" type="password"
                                 require="required" id="senha" name="senha">
                             </div>
+                            <div class="text-right">
+                               <button class="btn btn-sucess"
+                                        type="submit">Acessar</button>
+                           </div>
+                        </form>
                      </div>
                 </div>
             </div>
-                        </form>
-            <div class="text-right">
-                <button class="btn btn-sucess"
-                         type="submit">Acessar</button>
+         <div class="row">
+            <div class="col-md-12">
+                <?php 
+                   include 'includes/rodape.php';
+                ?>
             </div>
+         </div>
         </div>
+        <script src="lib/bootstrp-4.2.1-dist/ja/bootstrap.min.js"></script>
     </body>
 </html>

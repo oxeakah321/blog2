@@ -29,6 +29,7 @@ switch($acao){
             'post',
             $dados
         );
+
         break;
         case 'update':
             $dados = [
@@ -49,7 +50,6 @@ switch($acao){
             );
         
             break;
-        
         case 'delete':
             $criterio = [
                 ['id', '=', $id]
@@ -64,4 +64,5 @@ switch($acao){
         }
         
         header('Location: ../index.php');
+        
         ?>

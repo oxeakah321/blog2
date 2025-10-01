@@ -11,7 +11,7 @@
                 <div class="col-md-12">
                     <?php
                     include 'includes/topo.php';
-                    include 'inludes/valida_login.php';
+                    include 'includes/valida_login.php';
                     ?>
 
                 </div>
